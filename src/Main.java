@@ -309,6 +309,12 @@ public class Main {
                             System.out.println("Has seleccionado personalizar el diseño con la característica: " + otraCaracteristica);
                             contador++;
                             break;
+                        case 4:
+                        System.out.println("Introduce la característica del diseño:");
+                        otraCaracteristica = scanner.next();
+                        System.out.println("Has seleccionado personalizar el diseño con la característica: " + otraCaracteristica);
+                        contador++;
+                        break;
                         default:
                             System.out.println("Opción no válida");
                     }
